@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password_generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page1">
+        <div id="generator">
+            <div class="h1-div">
+                <h1>Generate a <br> <span>Random password</span></h1>
+            </div>
+            <div class="typed"></div>
+            <div class="screen">
+                <input type="text" id="password" placeholder="Password generator">
+                <img src="./pngtree-vector-copy-icon-png-image_702433-removebg-preview.png" onclick="copyPassword()" alt="">
+            </div>
+            <button onclick="createPassword()"><img src="./png-btn1.png" alt="">Generate Password</button>
+        </div>
+
+    </div>
+    
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
